@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
 
 namespace csharp_biblioteca
 {
@@ -72,6 +71,8 @@ namespace csharp_biblioteca
                 while (line != null)
                 {
                     string[] sVect = line.Split(";");
+                    //this.Utenti.Add(user);
+                    //line = sr.ReadLine();
                     string Nome = sVect[0];
                     string Cognome = sVect[1];
                     string Telefono = sVect[2];
